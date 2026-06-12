@@ -1,15 +1,35 @@
+# TryHackMe: Anonymous Write-Up
 
-TryHackMe: Anonymous - Write-Up
-----------------------------------
+## Overview
 
-A chronological walkthrough of the Anonymous lab on TryHackMe. This report documents the exact steps taken to enumerate the network, compromise the target via an automated cleanup script, and escalate privileges to root using a misconfigured SUID binary via GTFOBins.
+This write-up documents my approach to completing the **Anonymous** room on TryHackMe. The room focuses on service enumeration, FTP misconfigurations, Linux privilege escalation, and post-exploitation techniques.
 
-Lab Details
-Room:[Anonymous](https://tryhackme.com/room/anonymous)
-Difficulty: Easy
-Machine IP: <TARGET_IP>
+Through systematic enumeration, I identified a writable script being executed automatically by a scheduled task, which allowed me to gain initial access. Further investigation revealed a vulnerable SUID binary that led to root privileges.
 
--------------------------------------------------
+---
+
+## Room Information
+
+| Category | Details |
+|-----------|----------|
+| Platform | TryHackMe |
+| Room | Anonymous |
+| Difficulty | Easy |
+| Operating System | Linux |
+
+---
+
+## Skills Practiced
+
+- Network Enumeration
+- FTP Enumeration
+- SMB Enumeration
+- Linux Privilege Escalation
+- Cron Job Abuse
+- Reverse Shell Techniques
+- SUID Exploitation
+- GTFOBins Usage
+
 ---
 
 ## Attack Path Summary
@@ -72,6 +92,30 @@ Machine IP: <TARGET_IP>
 - GTFOBins
 
 ---
+
+
+
+## Conclusion
+
+The Anonymous room is an excellent beginner-friendly Linux challenge that demonstrates how small misconfigurations can lead to full system compromise. The combination of FTP enumeration, cron job abuse, and SUID exploitation provides valuable hands-on experience with real-world attack paths.
+
+
+---
+steps are given below:
+---
+
+
+TryHackMe: Anonymous - Write-Up
+----------------------------------
+
+A chronological walkthrough of the Anonymous lab on TryHackMe. This report documents the exact steps taken to enumerate the network, compromise the target via an automated cleanup script, and escalate privileges to root using a misconfigured SUID binary via GTFOBins.
+
+Lab Details
+Room:[Anonymous](https://tryhackme.com/room/anonymous)
+Difficulty: Easy
+Machine IP: <TARGET_IP>
+
+-------------------------------------------------
 
 Step-by-Step Walkthrough
 
@@ -237,3 +281,9 @@ root
 The walkthrough was completed by retrieving the administrative root flag located within '/root/root.txt'.
 
 Thank you guys...
+
+
+
+
+
+*Write-up created as part of my cybersecurity learning journey and TryHackMe practice labs.*
