@@ -217,7 +217,7 @@ password: crystal
 
 ```text
 Username: chris
-Password: crystalenigma
+Password: crystal
 ```
 
 ---
