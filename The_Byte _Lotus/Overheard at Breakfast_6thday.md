@@ -85,7 +85,7 @@ The following pieces of information stand out.
 | **Lambo!**                                                                | Username/Nickname            |
 | **Ponzi - Influencer**                                                    | Conversation participant     |
 | **Byte Lotus**                                                            | Resort name (context)        |
-| **[lambobytelotushotel@gmail.com](mailto:lambobytelotushotel@gmail.com)** | Strong identifier            |
+| **lambobytelotushotel@gmail.com** | Strong identifier            |
 | **"Started with a G"**                                                    | Hint about an online service |
 
 The room hint also encourages us to **read the conversation carefully**, not just skim through it.
