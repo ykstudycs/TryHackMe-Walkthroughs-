@@ -48,6 +48,7 @@ The archive contains a single image:
 ```
 conversation.png
 ```
+<img width="1175" height="781" alt="conversation" src="https://github.com/user-attachments/assets/91a01d88-d8a7-4c83-9bf8-ebff86789a21" />
 
 
 ---
@@ -67,9 +68,9 @@ The most important part of the conversation is this section:
 >
 > Started with a **G** if I remember correctly.
 >
-> But if anything this is my best way of communication:
+> But if anything this is my best way of communication:lambobytelotushotel@gmail.com
 >
-> **[lambobytelotushotel@gmail.com](mailto:lambobytelotushotel@gmail.com)**"
+
 
 ---
 
@@ -117,6 +118,10 @@ Gravatar allows users to create a global profile associated with an email addres
 # 🌐 Step 5 – Search the Email
 
 Open Gravatar and use its email lookup feature.
+<img width="1057" height="355" alt="emailchecker" src="https://github.com/user-attachments/assets/05c8206d-3938-4033-8403-2294cdbd2a90" />
+
+
+
 
 Search for:
 
@@ -136,6 +141,9 @@ d43faafe9d7f056793bd037b8d6e321acad985c222d83775b10d6539e301e931
 Avatar URL:
 /avatar/d43faafe9d7f056793bd037b8d6e321acad985c222d83775b10d6539e301e931
 ```
+
+<img width="980" height="882" alt="gravatar" src="https://github.com/user-attachments/assets/4b971b1b-a0f0-454f-8ddc-726d3093facb" />
+
 
 ---
 
@@ -157,6 +165,9 @@ The profile contains the following message:
 
 This looks like a **Base64-encoded** string.
 
+<img width="860" height="607" alt="lambofinal" src="https://github.com/user-attachments/assets/a20b111d-f168-41b4-9f2e-4a0a40bb7c0c" />
+
+
 ---
 
 # 🔐 Step 7 – Decode the String
@@ -164,13 +175,13 @@ This looks like a **Base64-encoded** string.
 Decode the Base64 value.
 
 ```text
-VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9
+VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM***
 ```
 
 Using any Base64 decoder:
 
 ```bash
-echo "VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50MWZpM2R9" | base64 -d
+echo "VEhNe1MzY3JlVF9QcjBmaWwzX0g0c19iMzNuX0lkZW50M****" | base64 -d
 ```
 
 Output:
