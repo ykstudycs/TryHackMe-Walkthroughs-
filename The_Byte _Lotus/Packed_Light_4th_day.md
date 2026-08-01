@@ -1,4 +1,4 @@
-# 🔦 TryHackMe — Packed Light
+#  TryHackMe — Packed Light
 
 > **Difficulty:** 🟢 Easy  
 > **Category:** 🌐 Network Forensics / Cryptography  
