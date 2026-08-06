@@ -49,6 +49,8 @@ Inspecting the HTML source revealed hardcoded credentials inside an HTML comment
 Username: concierge
 Password: StayNoticed2024!
 ```
+<img width="655" height="309" alt="10sourcecode" src="https://github.com/user-attachments/assets/cf82f30c-72da-41e7-9705-badb6526f389" />
+
 
 Using these credentials, I successfully logged into the staff dashboard.
 
@@ -59,6 +61,7 @@ One particular message stood out:
 > *A shell may include optional automation hooks — the theme worker applies these for you shortly after the shell comes ashore.*
 
 This hinted that uploaded content might eventually be processed by a background worker.
+<img width="1120" height="815" alt="10loded" src="https://github.com/user-attachments/assets/959b72fb-3091-47ec-b1c1-759718012920" />
 
 ---
 
@@ -121,6 +124,8 @@ After a successful upload, the application returned the storage location.
 ```text
 shells/22b7c883886f/
 ```
+<img width="956" height="920" alt="10uploading" src="https://github.com/user-attachments/assets/368220bd-ac91-4d6b-a1ec-8e0eb5f4a518" />
+
 
 Although the uploaded files were stored under the `shells/` directory, the directory traversal payload caused `callback.py` to be written into the application's `hooks/` directory.
 
